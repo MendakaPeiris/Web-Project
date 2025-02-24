@@ -1,0 +1,134 @@
+.payment-container {
+    max-width: 800px;
+    margin: 0rem auto;
+    padding: 2rem;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment-container h1 {
+    margin-top: 50px;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.payment-container p {
+    text-align: center;
+    color: #34495e;
+    margin-bottom: 2rem;
+}
+
+.payment-form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .form-group {
+    flex-basis: 48%;
+}
+
+.payment-gateway {
+    background-color: #ecf0f1;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.payment-gateway h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.btn-submit {
+    background-color: #2ecc71;
+    color: #ffffff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-submit:hover {
+    background-color: #27ae60;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+/* Font Awesome icon styles */
+.fas {
+    margin-right: 0.5rem;
+    color: #3498db;
+}
+
+@media screen and (max-width: 768px) {
+    .payment-container {
+        padding: 1rem;
+    }
+
+    .payment-form {
+        padding: 1.5rem;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .form-row .form-group {
+        flex-basis: 100%;
+    }
+}

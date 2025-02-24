@@ -1,0 +1,97 @@
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.hero {
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 4rem 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #34495e;
+}
+
+.our-mission, .our-story, .team, .why-choose-us {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #34495e;
+    line-height: 1.6;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    flex-basis: calc(33.333% - 1rem);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.team-member h3 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+.why-choose-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.why-choose-us li {
+    font-size: 1.1rem;
+    color: #34495e;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.why-choose-us li i {
+    color: #2ecc71;
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .team-member {
+        flex-basis: 100%;
+    }
+}
